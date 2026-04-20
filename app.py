@@ -11,7 +11,7 @@ def home():
 
 @app.route("/test")
 def test():
-    rerun {"message": "API working"}
+    return {"message": "API working"}
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",
