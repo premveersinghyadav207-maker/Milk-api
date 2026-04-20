@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Milk Management API Running"
+    return "Milk Managment API Running"
 
 @app.route("/test")
 def test():
